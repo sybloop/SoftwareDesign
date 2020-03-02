@@ -1,2 +1,2 @@
 # SITSoftwareDesign
-Some edits done for testing GitHub, and some comments...
+This repository contains code samples for students of SIT.
