@@ -15,11 +15,11 @@ namespace FactoryExampleApp
         }
         public String getProductType()
         {
-            return productType;
+            return this.productType;
         }
         public int getCost()
         {
-            return cost;
+            return this.cost;
         }
     }   
 }
