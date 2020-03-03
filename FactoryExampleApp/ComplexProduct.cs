@@ -10,8 +10,8 @@ namespace FactoryExampleApp
         private int cost;
         public ComplexProduct()
         {
-            productType = "Complex";
-            cost = 100;
+            this.productType = "Complex";
+            this.cost = 100;
         }
         public String getProductType()
         {
