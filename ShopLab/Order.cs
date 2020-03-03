@@ -10,8 +10,7 @@ namespace ShopLab
         public Order(decimal totalCost, decimal weightInKG)
         {
             TotalCost = totalCost;
-            WeightInKG = weightInKG;
-            System.Console.WriteLine("Creating an order with cost " + this.TotalCost + " and weight " + this.WeightInKG);
+            WeightInKG = weightInKG;            
         }
         public decimal TotalCost { get; set; }
         public decimal WeightInKG { get; set; }
