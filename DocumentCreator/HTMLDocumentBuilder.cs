@@ -21,7 +21,7 @@ namespace DocumentCreator
         }
 
         // build the <head> element
-        private void BuildHeading(string titleIn, string authorIn)
+        private void BuildHeadElement(string titleIn, string authorIn)
         {
             // save the title and author for later
             title = titleIn;
@@ -46,7 +46,7 @@ namespace DocumentCreator
 
         public void BuildDocument(String titleIn, String authorIn, String textIn) 
         {
-            BuildHeading(titleIn, authorIn);
+            BuildHeadElement(titleIn, authorIn);
             //Write code here: call the method to build the body
                         
         }
